@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 rowEffect = databaseAdapter.insertContact(name, address, email);
                 databaseAdapter.closeDB();
 
-                Toast.makeText(this, "Inserted >>> " + rowEffect, Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Is Inserted >>> " + rowEffect, Toast.LENGTH_SHORT).show();
 
                 finish();
 
